@@ -11,6 +11,8 @@ Do Active Labour Market Policies Mitigate Openness Shocks?
 This research tests whether Active Labour Market Policies (ALMP) act as a structural buffer against adverse labor market dislocations caused by Trade Openness and Financial Openness.
 Resolving data sparseness in institutional surveys via macroeconomic panel interaction methods (Blanchard & Wolfers, 2000; Rodrik, 1998), this project analyzes 1,117 country-year observations across 50 countries (2000–2022) using Two-Way Fixed Effects (TWFE) and country-clustered robust standard errors.
 
+This project involved support from Antigravity - an AI agent which helped me debug the code and address key econometric data problems identified - such as sparse data collection and robustness checking. The workflow started with me finding data, cleaning it up, writing a preliminary code, and then asking Antigravity to clear up any issues with data and solve modelling problems - such as pivoting from time-variant ALMP as a DV, to mean ALMP as a structural buffer against variations in trade and financial openness.
+
 Key Empirical Findings
 
 Employment Rate (`emp_rate`):
